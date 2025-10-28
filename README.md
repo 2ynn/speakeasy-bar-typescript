@@ -1,3 +1,8 @@
+
+
+v.4.2.1
+
+
 <div align="center">
     <img src="https://github.com/speakeasy-sdks/bar-typescript/assets/6267663/f20796b3-05fd-4100-bb13-763e618b1df6" width="150">
     <h1>Speakeasy Bar Typescript SDKs</h1>
