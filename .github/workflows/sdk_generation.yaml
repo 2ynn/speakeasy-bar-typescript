@@ -25,6 +25,9 @@ permissions:
         - cron: 0 0 * * *
 jobs:
     generate:
+        permissions:
+            id-token: write  # Required for Trusted publishing (OIDC)
+            contents: read
         uses: speakeasy-api/sdk-generation-action/.github/workflows/workflow-executor.yaml@cs275
         with:
             force: ${{ github.event.inputs.force }}
