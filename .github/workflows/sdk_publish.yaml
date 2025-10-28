@@ -4,6 +4,7 @@ permissions:
   contents: write
   pull-requests: write
   statuses: write
+  id-token: write  # Required for Trusted publishing (OIDC)
 "on":
   workflow_dispatch:
   push:
@@ -14,9 +15,6 @@ permissions:
       - '*/RELEASES.md'
 jobs:
   publish:
-    permissions:
-      id-token: write  # Required for Trusted publishing (OIDC)
-      contents: read
     uses: speakeasy-api/sdk-generation-action/.github/workflows/sdk-publish.yaml@cs275
     secrets:
       github_access_token: ${{ secrets.GITHUB_TOKEN }}
