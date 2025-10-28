@@ -55,7 +55,7 @@ typescript:
   modelPropertyCasing: camel
   moduleFormat: commonjs
   outputModelSuffix: output
-  packageName: '@speakeasy-sdks/speakeasy-bar'
+  packageName: '@2ynn/speakeasy-bar'
   responseFormat: envelope
   sseFlatResponse: false
   templateVersion: v2
