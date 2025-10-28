@@ -4,8 +4,8 @@ sources:
     bar-api:
         inputs:
             - location: ./openapi.yaml
-        # registry:
-        #     location: registry.speakeasyapi.dev/speakeasy-bar-test/speakeasy-bar-test/bar-api
+        registry:
+            location: registry.speakeasyapi.dev/qynn/readme-editor-tests/bar-api
 targets:
     bar-typescript:
         target: typescript
@@ -13,7 +13,3 @@ targets:
         publish:
             npm:
                 token: $npm_token
-        # codeSamples:
-        #     output: codeSamples.yaml
-        #     registry:
-        #         location: registry.speakeasyapi.dev/speakeasy-bar-test/speakeasy-bar-test/code-samples-typescript-bar-typescript
