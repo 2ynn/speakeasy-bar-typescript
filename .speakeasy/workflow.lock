@@ -1,4 +1,4 @@
-speakeasyVersion: 1.636.3
+speakeasyVersion: 1.642.1
 sources:
     bar-api:
         sourceNamespace: bar-api
@@ -22,7 +22,7 @@ workflow:
             inputs:
                 - location: ./openapi.yaml
             registry:
-                location: registry.speakeasyapi.dev/qynn/qynn/bar-api
+                location: registry.speakeasyapi.dev/speakeasy-team/speakeasy-team/speakeasy-bar-typescript
     targets:
         bar-typescript:
             target: typescript
@@ -30,3 +30,9 @@ workflow:
             publish:
                 npm:
                     token: $npm_token
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/speakeasy-team/speakeasy-team/speakeasy-bar-typescript-code-samples
+                labelOverride:
+                    fixedValue: Typescript (SDK)
+                blocking: false

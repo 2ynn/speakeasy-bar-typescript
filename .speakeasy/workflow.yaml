@@ -13,7 +13,9 @@ targets:
         publish:
             npm:
                 token: $npm_token
-        # codeSamples:
-        #     output: codeSamples.yaml
-        #     registry:
-        #         location: registry.speakeasyapi.dev/speakeasy-bar-test/speakeasy-bar-test/code-samples-typescript-bar-typescript
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/speakeasy-team/speakeasy-team/speakeasy-bar-typescript-code-samples
+            labelOverride:
+                fixedValue: Typescript (SDK)
+            blocking: false
