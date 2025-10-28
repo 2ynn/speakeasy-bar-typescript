@@ -13,9 +13,9 @@ targets:
         publish:
             npm:
                 token: $npm_token
-        codeSamples:
-            registry:
-                location: registry.speakeasyapi.dev/speakeasy-team/speakeasy-team/speakeasy-bar-typescript-code-samples
-            labelOverride:
-                fixedValue: Typescript (SDK)
-            blocking: false
+        # codeSamples:
+        #     registry:
+        #         location: registry.speakeasyapi.dev/speakeasy-team/speakeasy-team/speakeasy-bar-typescript-code-samples
+        #     labelOverride:
+        #         fixedValue: Typescript (SDK)
+        #     blocking: false
