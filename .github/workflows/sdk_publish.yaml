@@ -6,12 +6,12 @@ permissions:
   statuses: write
 "on":
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - RELEASES.md
-      - '*/RELEASES.md'
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - RELEASES.md
+  #     - '*/RELEASES.md'
 jobs:
   publish:
     # permissions:
