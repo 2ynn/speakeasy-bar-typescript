@@ -1,4 +1,4 @@
-speakeasyVersion: 1.605.0
+speakeasyVersion: 1.642.0
 sources:
     bar-api:
         sourceNamespace: bar-api
@@ -6,7 +6,7 @@ sources:
         sourceBlobDigest: sha256:bffda59833a9bef9a47b7e980b8af8f4a5d86e887ec573e1a27217acb9d93405
         tags:
             - latest
-            - speakeasy-sdk-regen-1755266296
+            - speakeasy-sdk-regen-1761661266
             - 1.0.0
 targets:
     bar-typescript:
@@ -14,8 +14,6 @@ targets:
         sourceNamespace: bar-api
         sourceRevisionDigest: sha256:688c2d2c385d59dc1e2a4b34e43aa26b8bc7dd824736201762a98c886c6c2fae
         sourceBlobDigest: sha256:bffda59833a9bef9a47b7e980b8af8f4a5d86e887ec573e1a27217acb9d93405
-        codeSamplesNamespace: code-samples-typescript-bar-typescript
-        codeSamplesRevisionDigest: sha256:dcba43d75384d09dd81db3d40d39ccc14c79ad9e25aca595b130a179a0f75e59
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
@@ -24,7 +22,7 @@ workflow:
             inputs:
                 - location: ./openapi.yaml
             registry:
-                location: registry.speakeasyapi.dev/speakeasy-bar-test/speakeasy-bar-test/bar-api
+                location: registry.speakeasyapi.dev/qynn/readme-editor-tests/bar-api
     targets:
         bar-typescript:
             target: typescript
@@ -32,7 +30,3 @@ workflow:
             publish:
                 npm:
                     token: $npm_token
-            codeSamples:
-                output: codeSamples.yaml
-                registry:
-                    location: registry.speakeasyapi.dev/speakeasy-bar-test/speakeasy-bar-test/code-samples-typescript-bar-typescript

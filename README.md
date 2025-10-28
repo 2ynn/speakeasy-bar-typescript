@@ -81,7 +81,6 @@ run();
 
 * [authenticate](docs/sdks/authentication/README.md#authenticate) - Authenticate with the API by providing a username and password.
 
-
 ### [config](docs/sdks/config/README.md)
 
 * [subscribeToWebhooks](docs/sdks/config/README.md#subscribetowebhooks) - Subscribe to webhooks.
@@ -285,7 +284,7 @@ httpClient.addHook("requestError", (error, request) => {
   console.groupEnd();
 });
 
-const sdk = new BarSDK({ httpClient });
+const sdk = new BarSDK({ httpClient: httpClient });
 ```
 <!-- End Custom HTTP Client [http-client] -->
 
@@ -381,10 +380,7 @@ bun add @speakeasy-sdks/speakeasy-bar
 ### Yarn
 
 ```bash
-yarn add @speakeasy-sdks/speakeasy-bar zod
-
-# Note that Yarn does not install peer dependencies automatically. You will need
-# to install zod as shown above.
+yarn add @speakeasy-sdks/speakeasy-bar
 ```
 <!-- End SDK Installation [installation] -->
 
