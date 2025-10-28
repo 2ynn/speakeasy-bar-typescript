@@ -5,7 +5,7 @@ An error occurred interacting with the API.
 ## Example Usage
 
 ```typescript
-import { APIError } from "@speakeasy-sdks/speakeasy-bar/sdk/models/errors";
+import { APIError } from "@2ynn/speakeasy-bar/sdk/models/errors";
 
 // No examples available for this model
 ```

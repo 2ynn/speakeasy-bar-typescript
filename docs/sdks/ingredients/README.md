@@ -17,7 +17,7 @@ Get a list of ingredients, if authenticated this will include stock levels and p
 
 <!-- UsageSnippet language="typescript" operationID="listIngredients" method="get" path="/ingredients" -->
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {
@@ -39,8 +39,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { BarSDKCore } from "@speakeasy-sdks/speakeasy-bar/core.js";
-import { ingredientsListIngredients } from "@speakeasy-sdks/speakeasy-bar/funcs/ingredientsListIngredients.js";
+import { BarSDKCore } from "@2ynn/speakeasy-bar/core.js";
+import { ingredientsListIngredients } from "@2ynn/speakeasy-bar/funcs/ingredientsListIngredients.js";
 
 // Use `BarSDKCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

@@ -18,7 +18,7 @@ Get a drink by name, if authenticated this will include stock levels and product
 
 <!-- UsageSnippet language="typescript" operationID="getDrink" method="get" path="/drink/{name}" -->
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {
@@ -40,8 +40,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { BarSDKCore } from "@speakeasy-sdks/speakeasy-bar/core.js";
-import { drinksGetDrink } from "@speakeasy-sdks/speakeasy-bar/funcs/drinksGetDrink.js";
+import { BarSDKCore } from "@2ynn/speakeasy-bar/core.js";
+import { drinksGetDrink } from "@2ynn/speakeasy-bar/funcs/drinksGetDrink.js";
 
 // Use `BarSDKCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -92,7 +92,7 @@ Get a list of drinks, if authenticated this will include stock levels and produc
 
 <!-- UsageSnippet language="typescript" operationID="listDrinks" method="get" path="/drinks" -->
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {
@@ -114,8 +114,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { BarSDKCore } from "@speakeasy-sdks/speakeasy-bar/core.js";
-import { drinksListDrinks } from "@speakeasy-sdks/speakeasy-bar/funcs/drinksListDrinks.js";
+import { BarSDKCore } from "@2ynn/speakeasy-bar/core.js";
+import { drinksListDrinks } from "@2ynn/speakeasy-bar/funcs/drinksListDrinks.js";
 
 // Use `BarSDKCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

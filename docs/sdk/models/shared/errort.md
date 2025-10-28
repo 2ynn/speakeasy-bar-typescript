@@ -5,7 +5,7 @@ An unknown error occurred interacting with the API.
 ## Example Usage
 
 ```typescript
-import { ErrorT } from "@speakeasy-sdks/speakeasy-bar/sdk/models/shared";
+import { ErrorT } from "@2ynn/speakeasy-bar/sdk/models/shared";
 
 let value: ErrorT = {};
 ```

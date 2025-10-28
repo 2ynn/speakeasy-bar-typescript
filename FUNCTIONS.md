@@ -19,8 +19,8 @@ specific category of applications.
 ## Example
 
 ```typescript
-import { BarSDKCore } from "@speakeasy-sdks/speakeasy-bar/core.js";
-import { drinksListDrinks } from "@speakeasy-sdks/speakeasy-bar/funcs/drinksListDrinks.js";
+import { BarSDKCore } from "@2ynn/speakeasy-bar/core.js";
+import { drinksListDrinks } from "@2ynn/speakeasy-bar/funcs/drinksListDrinks.js";
 
 // Use `BarSDKCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

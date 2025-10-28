@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { SubscribeToWebhooksResponse } from "@speakeasy-sdks/speakeasy-bar/sdk/models/operations";
+import { SubscribeToWebhooksResponse } from "@2ynn/speakeasy-bar/sdk/models/operations";
 
 let value: SubscribeToWebhooksResponse = {
   contentType: "<value>",

@@ -31,7 +31,7 @@ yarn add https://github.com/speakeasy-sdks/bar-typescript
 ### Example 1
 
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {
@@ -52,7 +52,7 @@ run();
 ### Example 2
 
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {
@@ -122,8 +122,8 @@ run();
 
 ### Example
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
-import * as errors from "@speakeasy-sdks/speakeasy-bar/sdk/models/errors";
+import { BarSDK } from "@2ynn/speakeasy-bar";
+import * as errors from "@2ynn/speakeasy-bar/sdk/models/errors";
 
 const barSDK = new BarSDK();
 
@@ -200,7 +200,7 @@ If the selected server has variables, you may override its default values throug
 #### Example
 
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   server: "customer",
@@ -222,7 +222,7 @@ run();
 
 The default server can also be overridden globally by passing a URL to the `serverURL: string` optional parameter when initializing the SDK client instance. For example:
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   serverURL: "https://speakeasy.bar",
@@ -257,8 +257,8 @@ custom header and a timeout to requests and how to use the `"requestError"` hook
 to log errors:
 
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
-import { HTTPClient } from "@speakeasy-sdks/speakeasy-bar/lib/http";
+import { BarSDK } from "@2ynn/speakeasy-bar";
+import { HTTPClient } from "@2ynn/speakeasy-bar/lib/http";
 
 const httpClient = new HTTPClient({
   // fetcher takes a function that has the same signature as native `fetch`.
@@ -304,7 +304,7 @@ This SDK supports the following security schemes globally:
 
 You can set the security parameters through the `security` optional parameter when initializing the SDK client instance. The selected scheme will be used by default to authenticate with the API for all operations that support it. For example:
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {
@@ -362,25 +362,25 @@ The SDK can be installed with either [npm](https://www.npmjs.com/), [pnpm](https
 ### NPM
 
 ```bash
-npm add @speakeasy-sdks/speakeasy-bar
+npm add @2ynn/speakeasy-bar
 ```
 
 ### PNPM
 
 ```bash
-pnpm add @speakeasy-sdks/speakeasy-bar
+pnpm add @2ynn/speakeasy-bar
 ```
 
 ### Bun
 
 ```bash
-bun add @speakeasy-sdks/speakeasy-bar
+bun add @2ynn/speakeasy-bar
 ```
 
 ### Yarn
 
 ```bash
-yarn add @speakeasy-sdks/speakeasy-bar
+yarn add @2ynn/speakeasy-bar
 ```
 <!-- End SDK Installation [installation] -->
 
@@ -424,7 +424,7 @@ Some of the endpoints in this SDK support retries.  If you use the SDK without a
 
 To change the default retry strategy for a single API call, simply provide a retryConfig object to the call:
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK();
 
@@ -451,7 +451,7 @@ run();
 
 If you'd like to override the default retry strategy for all operations that support retries, you can provide a retryConfig at SDK initialization:
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   retryConfig: {
@@ -488,7 +488,7 @@ You can pass a logger that matches `console`'s interface as an SDK option.
 > Beware that debug logging will reveal secrets, like API tokens in headers, in log messages printed to a console or files. It's recommended to use this feature only during local development and not in production.
 
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const sdk = new BarSDK({ debugLogger: console });
 ```

@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { ListFoodsResponse } from "@speakeasy-sdks/speakeasy-bar/sdk/models/operations";
+import { ListFoodsResponse } from "@2ynn/speakeasy-bar/sdk/models/operations";
 
 let value: ListFoodsResponse = {
   contentType: "<value>",

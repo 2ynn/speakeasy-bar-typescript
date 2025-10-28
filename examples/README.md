@@ -1,6 +1,6 @@
-# @speakeasy-sdks/speakeasy-bar Examples
+# @2ynn/speakeasy-bar Examples
 
-This directory contains example scripts demonstrating how to use the @speakeasy-sdks/speakeasy-bar SDK.
+This directory contains example scripts demonstrating how to use the @2ynn/speakeasy-bar SDK.
 
 ## Prerequisites
 

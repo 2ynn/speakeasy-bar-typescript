@@ -18,7 +18,7 @@ Get a food item by name.
 
 <!-- UsageSnippet language="typescript" operationID="getFood" method="get" path="/food/{name}" -->
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {
@@ -40,8 +40,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { BarSDKCore } from "@speakeasy-sdks/speakeasy-bar/core.js";
-import { foodGetFood } from "@speakeasy-sdks/speakeasy-bar/funcs/foodGetFood.js";
+import { BarSDKCore } from "@2ynn/speakeasy-bar/core.js";
+import { foodGetFood } from "@2ynn/speakeasy-bar/funcs/foodGetFood.js";
 
 // Use `BarSDKCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.
@@ -92,7 +92,7 @@ Get a list of food items.
 
 <!-- UsageSnippet language="typescript" operationID="listFoods" method="get" path="/foods" -->
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {
@@ -114,8 +114,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { BarSDKCore } from "@speakeasy-sdks/speakeasy-bar/core.js";
-import { foodListFoods } from "@speakeasy-sdks/speakeasy-bar/funcs/foodListFoods.js";
+import { BarSDKCore } from "@2ynn/speakeasy-bar/core.js";
+import { foodListFoods } from "@2ynn/speakeasy-bar/funcs/foodListFoods.js";
 
 // Use `BarSDKCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

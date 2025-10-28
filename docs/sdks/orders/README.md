@@ -17,7 +17,7 @@ Create an order for a drink.
 
 <!-- UsageSnippet language="typescript" operationID="createOrder" method="post" path="/order" -->
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {
@@ -39,8 +39,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { BarSDKCore } from "@speakeasy-sdks/speakeasy-bar/core.js";
-import { ordersCreateOrder } from "@speakeasy-sdks/speakeasy-bar/funcs/ordersCreateOrder.js";
+import { BarSDKCore } from "@2ynn/speakeasy-bar/core.js";
+import { ordersCreateOrder } from "@2ynn/speakeasy-bar/funcs/ordersCreateOrder.js";
 
 // Use `BarSDKCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

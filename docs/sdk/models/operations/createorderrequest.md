@@ -3,8 +3,8 @@
 ## Example Usage
 
 ```typescript
-import { CreateOrderRequest } from "@speakeasy-sdks/speakeasy-bar/sdk/models/operations";
-import { OrderType } from "@speakeasy-sdks/speakeasy-bar/sdk/models/shared";
+import { CreateOrderRequest } from "@2ynn/speakeasy-bar/sdk/models/operations";
+import { OrderType } from "@2ynn/speakeasy-bar/sdk/models/shared";
 
 let value: CreateOrderRequest = {
   requestBody: [

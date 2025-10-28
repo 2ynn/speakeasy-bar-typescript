@@ -1,5 +1,5 @@
 {
-  "name": "@speakeasy-sdks/speakeasy-bar-examples",
+  "name": "@2ynn/speakeasy-bar-examples",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,6 +13,6 @@
     "tsx": "^4.19.2"
   },
   "dependencies": {
-    "@speakeasy-sdks/speakeasy-bar": "file:.."
+    "@2ynn/speakeasy-bar": "file:.."
   }
 }

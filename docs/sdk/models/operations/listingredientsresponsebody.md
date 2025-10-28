@@ -5,7 +5,7 @@ A list of ingredients.
 ## Example Usage
 
 ```typescript
-import { ListIngredientsResponseBody } from "@speakeasy-sdks/speakeasy-bar/sdk/models/operations";
+import { ListIngredientsResponseBody } from "@2ynn/speakeasy-bar/sdk/models/operations";
 
 let value: ListIngredientsResponseBody = {};
 ```

@@ -5,7 +5,7 @@ A food item.
 ## Example Usage
 
 ```typescript
-import { GetFoodResponseBody } from "@speakeasy-sdks/speakeasy-bar/sdk/models/operations";
+import { GetFoodResponseBody } from "@2ynn/speakeasy-bar/sdk/models/operations";
 
 let value: GetFoodResponseBody = {};
 ```

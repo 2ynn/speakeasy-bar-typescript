@@ -5,13 +5,13 @@
 import dotenv from "dotenv";
 dotenv.config();
 /**
- * Example usage of the @speakeasy-sdks/speakeasy-bar SDK
+ * Example usage of the @2ynn/speakeasy-bar SDK
  *
  * To run this example from the examples directory:
  * npm run build && npx tsx drinksListDrinks.example.ts
  */
 
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK({
   security: {

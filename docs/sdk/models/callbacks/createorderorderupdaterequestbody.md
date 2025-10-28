@@ -3,8 +3,8 @@
 ## Example Usage
 
 ```typescript
-import { CreateOrderOrderUpdateRequestBody } from "@speakeasy-sdks/speakeasy-bar/sdk/models/callbacks";
-import { OrderType } from "@speakeasy-sdks/speakeasy-bar/sdk/models/shared";
+import { CreateOrderOrderUpdateRequestBody } from "@2ynn/speakeasy-bar/sdk/models/callbacks";
+import { OrderType } from "@2ynn/speakeasy-bar/sdk/models/shared";
 
 let value: CreateOrderOrderUpdateRequestBody = {
   order: {

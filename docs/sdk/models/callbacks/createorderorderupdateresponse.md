@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { CreateOrderOrderUpdateResponse } from "@speakeasy-sdks/speakeasy-bar/sdk/models/callbacks";
+import { CreateOrderOrderUpdateResponse } from "@2ynn/speakeasy-bar/sdk/models/callbacks";
 
 let value: CreateOrderOrderUpdateResponse = {
   contentType: "<value>",

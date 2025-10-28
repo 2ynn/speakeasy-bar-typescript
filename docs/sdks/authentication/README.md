@@ -17,7 +17,7 @@ Authenticate with the API by providing a username and password.
 
 <!-- UsageSnippet language="typescript" operationID="authenticate" method="post" path="/authenticate" -->
 ```typescript
-import { BarSDK } from "@speakeasy-sdks/speakeasy-bar";
+import { BarSDK } from "@2ynn/speakeasy-bar";
 
 const barSDK = new BarSDK();
 
@@ -35,8 +35,8 @@ run();
 The standalone function version of this method:
 
 ```typescript
-import { BarSDKCore } from "@speakeasy-sdks/speakeasy-bar/core.js";
-import { authenticationAuthenticate } from "@speakeasy-sdks/speakeasy-bar/funcs/authenticationAuthenticate.js";
+import { BarSDKCore } from "@2ynn/speakeasy-bar/core.js";
+import { authenticationAuthenticate } from "@2ynn/speakeasy-bar/funcs/authenticationAuthenticate.js";
 
 // Use `BarSDKCore` for best tree-shaking performance.
 // You can create one instance of it to use across an application.

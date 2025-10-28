@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { RequestBody } from "@speakeasy-sdks/speakeasy-bar/sdk/models/operations";
+import { RequestBody } from "@2ynn/speakeasy-bar/sdk/models/operations";
 
 let value: RequestBody = {};
 ```

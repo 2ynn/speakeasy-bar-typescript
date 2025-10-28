@@ -5,7 +5,7 @@ The type of order.
 ## Example Usage
 
 ```typescript
-import { OrderType } from "@speakeasy-sdks/speakeasy-bar/sdk/models/shared";
+import { OrderType } from "@2ynn/speakeasy-bar/sdk/models/shared";
 
 let value: OrderType = OrderType.Ingredient;
 ```

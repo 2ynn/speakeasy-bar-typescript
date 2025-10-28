@@ -3,7 +3,7 @@
 ## Example Usage
 
 ```typescript
-import { GetDrinkRequest } from "@speakeasy-sdks/speakeasy-bar/sdk/models/operations";
+import { GetDrinkRequest } from "@2ynn/speakeasy-bar/sdk/models/operations";
 
 let value: GetDrinkRequest = {
   name: "<value>",

@@ -5,7 +5,7 @@ An order for a drink or ingredient.
 ## Example Usage
 
 ```typescript
-import { Order, OrderType, Status } from "@speakeasy-sdks/speakeasy-bar/sdk/models/shared";
+import { Order, OrderType, Status } from "@2ynn/speakeasy-bar/sdk/models/shared";
 
 let value: Order = {
   productCode: "AC-A2DF3",

@@ -5,7 +5,7 @@ A list of food items.
 ## Example Usage
 
 ```typescript
-import { ListFoodsResponseBody } from "@speakeasy-sdks/speakeasy-bar/sdk/models/operations";
+import { ListFoodsResponseBody } from "@2ynn/speakeasy-bar/sdk/models/operations";
 
 let value: ListFoodsResponseBody = {};
 ```
