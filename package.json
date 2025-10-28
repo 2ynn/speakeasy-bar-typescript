@@ -1,12 +1,12 @@
 {
-  "name": "@2ynn/speakeasy-bar",
-  "version": "4.2.1",
+  "name": "@speakeasy-sdks/speakeasy-bar",
+  "version": "4.2.2",
   "author": "speakeasy-bar-test",
   "main": "./index.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/2ynn/speakeasy-bar-typescript",
+    "url": "https://github.com/2ynn/speakeasy-bar-typescript.git",
     "directory": "."
   },
   "scripts": {
@@ -15,6 +15,7 @@
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
+    
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
@@ -24,6 +25,6 @@
     "typescript-eslint": "^8.26.0"
   },
   "dependencies": {
-    "zod": "^3.20.0"
+    "zod": "^3.25.0 || ^4.0.0"
   }
 }

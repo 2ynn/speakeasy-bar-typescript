@@ -86,7 +86,6 @@ type SecurityInputOAuth2ClientCredentials = {
     | {
       clientID?: string | undefined;
       clientSecret?: string | undefined;
-      tokenURL?: string | undefined;
     }
     | null
     | string
@@ -252,11 +251,9 @@ export function resolveGlobalSecurity(
     ],
     [
       {
-        type: "oauth2:client_credentials",
-        value: {
-          clientID: security?.clientCredentials?.clientID,
-          clientSecret: security?.clientCredentials?.clientSecret,
-        },
+        fieldName: "Authorization",
+        type: "oauth2",
+        value: security?.clientCredentials,
       },
     ],
   );

@@ -118,7 +118,7 @@ async function $do(
     options: client._options,
     baseURL: options?.serverURL ?? client._baseURL ?? "",
     operationID: "listIngredients",
-    oAuth2Scopes: ["read:basic"],
+    oAuth2Scopes: null,
 
     resolvedSecurity: requestSecurity,
 
