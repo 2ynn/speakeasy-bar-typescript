@@ -465,3 +465,13 @@ Based on:
 - [typescript v4.3.0] .
 ### Releases
 - [NPM v4.3.0] https://www.npmjs.com/package/@2ynn/speakeasy-bar/v/4.3.0 - .
+
+## 2025-10-28 21:25:11
+### Changes
+Based on:
+- OpenAPI Doc  
+- Speakeasy CLI 1.642.1 (2.731.4) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [typescript v4.3.1] .
+### Releases
+- [NPM v4.3.1] https://www.npmjs.com/package/@2ynn/speakeasy-bar/v/4.3.1 - .
