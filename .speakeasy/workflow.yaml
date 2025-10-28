@@ -4,8 +4,8 @@ sources:
     bar-api:
         inputs:
             - location: ./openapi.yaml
-        # registry:
-        #     location: registry.speakeasyapi.dev/speakeasy-bar-test/speakeasy-bar-test/bar-api
+        registry:
+            location: registry.speakeasyapi.dev/speakeasy-team/speakeasy-team/speakeasy-bar-typescript
 targets:
     bar-typescript:
         target: typescript
