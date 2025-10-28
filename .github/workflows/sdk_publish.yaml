@@ -4,7 +4,7 @@ permissions:
   contents: write
   pull-requests: write
   statuses: write
-  id-token: write  # Required for Trusted publishing (OIDC)
+  # id-token: write  # Required for Trusted publishing (OIDC)
 "on":
   workflow_dispatch:
   push:
