@@ -4,19 +4,19 @@ permissions:
   contents: write
   pull-requests: write
   statuses: write
-  # id-token: write  # Required for Trusted publishing (OIDC)
+  id-token: write
 "on":
-  workflow_dispatch:
   push:
     branches:
       - main
     paths:
-      - RELEASES.md
-      - '*/RELEASES.md'
+      - .speakeasy/gen.lock
 jobs:
   publish:
     uses: speakeasy-api/sdk-generation-action/.github/workflows/sdk-publish.yaml@cs275
+    with:
+      target: bar-typescript
     secrets:
       github_access_token: ${{ secrets.GITHUB_TOKEN }}
-      speakeasy_api_key: ${{ secrets.SPEAKEASY_API_KEY }}
       npm_token: ${{ secrets.NPM_TOKEN }}
+      speakeasy_api_key: ${{ secrets.SPEAKEASY_API_KEY }}
