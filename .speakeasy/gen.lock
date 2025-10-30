@@ -3,10 +3,10 @@ id: 906577a1-c369-4ae0-9074-3e1b5123889d
 management:
   docChecksum: 1635e5b89252324e589174337edd2cfe
   docVersion: 1.0.0
-  speakeasyVersion: 1.642.1
-  generationVersion: 2.731.4
-  releaseVersion: 4.3.1
-  configChecksum: 649cae1c6116d2cfe097cebc35809c67
+  speakeasyVersion: 1.643.2
+  generationVersion: 2.731.6
+  releaseVersion: 4.3.2
+  configChecksum: 8449cdb85a9dc0f493df9c95483fa0f8
   repoURL: https://github.com/2ynn/speakeasy-bar-typescript.git
   repoSubDirectory: .
   installationURL: https://github.com/2ynn/speakeasy-bar-typescript
