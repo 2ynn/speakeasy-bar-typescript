@@ -1,6 +1,6 @@
 {
   "name": "@2ynn/speakeasy-bar",
-  "version": "4.3.6",
+  "version": "4.3.7",
   "author": "speakeasy-bar-test",
   "main": "./index.js",
   "sideEffects": false,
