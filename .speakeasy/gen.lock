@@ -3,10 +3,10 @@ id: 906577a1-c369-4ae0-9074-3e1b5123889d
 management:
   docChecksum: 1635e5b89252324e589174337edd2cfe
   docVersion: 1.0.0
-  speakeasyVersion: 1.646.0
-  generationVersion: 2.735.1
-  releaseVersion: 4.4.1
-  configChecksum: a706e52ddb8a07cfe2cda89d57d0c84c
+  speakeasyVersion: 1.648.0
+  generationVersion: 2.737.0
+  releaseVersion: 4.4.2
+  configChecksum: c8767d68970ef8e92132f8733df59789
   repoURL: https://github.com/2ynn/speakeasy-bar-typescript.git
   repoSubDirectory: .
   installationURL: https://github.com/2ynn/speakeasy-bar-typescript
@@ -15,7 +15,7 @@ features:
   typescript:
     additionalDependencies: 0.1.0
     callbacks: 1.0.0
-    core: 3.24.2
+    core: 3.26.0
     defaultEnabledRetries: 0.1.0
     enumUnions: 0.1.0
     envVarSecurityUsage: 0.1.2

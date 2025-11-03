@@ -1,4 +1,4 @@
-speakeasyVersion: 1.646.0
+speakeasyVersion: 1.648.0
 sources:
     bar-api:
         sourceNamespace: bar-api

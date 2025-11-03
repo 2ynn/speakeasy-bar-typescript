@@ -21,13 +21,14 @@ generation:
     generateNewTests: false
     skipResponseBodyAssertions: false
 typescript:
-  version: 4.4.1
+  version: 4.4.2
   acceptHeaderEnum: true
   additionalDependencies:
     dependencies: {}
     devDependencies: {}
     peerDependencies: {}
   additionalPackageJSON: {}
+  additionalScripts: {}
   author: speakeasy-bar-test
   baseErrorName: BarSDKError
   clientServerStatusCodesAsErrors: true
