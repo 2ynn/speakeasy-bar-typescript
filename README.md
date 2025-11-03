@@ -205,7 +205,7 @@ import { BarSDK } from "@2ynn/speakeasy-bar";
 const barSDK = new BarSDK({
   server: "customer",
   environment: "dev",
-  organization: "<value>",
+  organization: "api",
 });
 
 async function run() {
