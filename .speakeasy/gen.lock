@@ -5,8 +5,8 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 1.648.0
   generationVersion: 2.737.0
-  releaseVersion: 4.4.2
-  configChecksum: c8767d68970ef8e92132f8733df59789
+  releaseVersion: 4.4.4
+  configChecksum: 240d8866489a55f44fa56eef5545e2ab
   repoURL: https://github.com/2ynn/speakeasy-bar-typescript.git
   repoSubDirectory: .
   installationURL: https://github.com/2ynn/speakeasy-bar-typescript
