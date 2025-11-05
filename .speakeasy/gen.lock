@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 906577a1-c369-4ae0-9074-3e1b5123889d
 management:
-  docChecksum: 76b8be269915237f9103d7621027b73f
+  docChecksum: 1635e5b89252324e589174337edd2cfe
   docVersion: 1.0.0
   speakeasyVersion: 1.649.0
   generationVersion: 2.739.1
-  releaseVersion: 4.4.7
-  configChecksum: 03ac6dae846c20f0ed8f091d05f4438b
+  releaseVersion: 4.4.9
+  configChecksum: 257b1972da82c4a44d3547e27e3977c6
   repoURL: https://github.com/2ynn/speakeasy-bar-typescript.git
   repoSubDirectory: .
   installationURL: https://github.com/2ynn/speakeasy-bar-typescript
