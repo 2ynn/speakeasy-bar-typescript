@@ -3,14 +3,7 @@
  */
 
 import * as z from "zod/v3";
-import { safeParse } from "../../../lib/schemas.js";
-import { Result as SafeParseResult } from "../../types/fp.js";
-import { SDKValidationError } from "../errors/sdkvalidationerror.js";
-import {
-  OrderType,
-  OrderType$inboundSchema,
-  OrderType$outboundSchema,
-} from "./ordertype.js";
+import { OrderType, OrderType$outboundSchema } from "./ordertype.js";
 
 /**
  * An order for a drink or ingredient.
@@ -31,17 +24,6 @@ export type OrderInput = {
 };
 
 /** @internal */
-export const OrderInput$inboundSchema: z.ZodType<
-  OrderInput,
-  z.ZodTypeDef,
-  unknown
-> = z.object({
-  productCode: z.string(),
-  quantity: z.number().int(),
-  type: OrderType$inboundSchema,
-});
-
-/** @internal */
 export type OrderInput$Outbound = {
   productCode: string;
   quantity: number;
@@ -59,29 +41,6 @@ export const OrderInput$outboundSchema: z.ZodType<
   type: OrderType$outboundSchema,
 });
 
-/**
- * @internal
- * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
- */
-export namespace OrderInput$ {
-  /** @deprecated use `OrderInput$inboundSchema` instead. */
-  export const inboundSchema = OrderInput$inboundSchema;
-  /** @deprecated use `OrderInput$outboundSchema` instead. */
-  export const outboundSchema = OrderInput$outboundSchema;
-  /** @deprecated use `OrderInput$Outbound` instead. */
-  export type Outbound = OrderInput$Outbound;
-}
-
 export function orderInputToJSON(orderInput: OrderInput): string {
   return JSON.stringify(OrderInput$outboundSchema.parse(orderInput));
-}
-
-export function orderInputFromJSON(
-  jsonString: string,
-): SafeParseResult<OrderInput, SDKValidationError> {
-  return safeParse(
-    jsonString,
-    (x) => OrderInput$inboundSchema.parse(JSON.parse(x)),
-    `Failed to parse 'OrderInput' from JSON`,
-  );
 }
