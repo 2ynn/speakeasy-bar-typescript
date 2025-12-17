@@ -40,7 +40,6 @@ export const OrderInput$inboundSchema: z.ZodType<
   quantity: z.number().int(),
   type: OrderType$inboundSchema,
 });
-
 /** @internal */
 export type OrderInput$Outbound = {
   productCode: string;
@@ -59,23 +58,9 @@ export const OrderInput$outboundSchema: z.ZodType<
   type: OrderType$outboundSchema,
 });
 
-/**
- * @internal
- * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
- */
-export namespace OrderInput$ {
-  /** @deprecated use `OrderInput$inboundSchema` instead. */
-  export const inboundSchema = OrderInput$inboundSchema;
-  /** @deprecated use `OrderInput$outboundSchema` instead. */
-  export const outboundSchema = OrderInput$outboundSchema;
-  /** @deprecated use `OrderInput$Outbound` instead. */
-  export type Outbound = OrderInput$Outbound;
-}
-
 export function orderInputToJSON(orderInput: OrderInput): string {
   return JSON.stringify(OrderInput$outboundSchema.parse(orderInput));
 }
-
 export function orderInputFromJSON(
   jsonString: string,
 ): SafeParseResult<OrderInput, SDKValidationError> {

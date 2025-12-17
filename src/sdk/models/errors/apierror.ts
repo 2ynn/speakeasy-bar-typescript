@@ -58,36 +58,3 @@ export const APIError$inboundSchema: z.ZodType<
       body: v.body$,
     });
   });
-
-/** @internal */
-export type APIError$Outbound = {
-  code?: string | undefined;
-  details?: { [k: string]: any } | undefined;
-  message?: string | undefined;
-};
-
-/** @internal */
-export const APIError$outboundSchema: z.ZodType<
-  APIError$Outbound,
-  z.ZodTypeDef,
-  APIError
-> = z.instanceof(APIError)
-  .transform(v => v.data$)
-  .pipe(z.object({
-    code: z.string().optional(),
-    details: z.record(z.any()).optional(),
-    message: z.string().optional(),
-  }));
-
-/**
- * @internal
- * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
- */
-export namespace APIError$ {
-  /** @deprecated use `APIError$inboundSchema` instead. */
-  export const inboundSchema = APIError$inboundSchema;
-  /** @deprecated use `APIError$outboundSchema` instead. */
-  export const outboundSchema = APIError$outboundSchema;
-  /** @deprecated use `APIError$Outbound` instead. */
-  export type Outbound = APIError$Outbound;
-}

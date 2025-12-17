@@ -53,7 +53,6 @@ export const CreateOrderOrderUpdateResponse$inboundSchema: z.ZodType<
     "RawResponse": "rawResponse",
   });
 });
-
 /** @internal */
 export type CreateOrderOrderUpdateResponse$Outbound = {
   ContentType: string;
@@ -83,19 +82,6 @@ export const CreateOrderOrderUpdateResponse$outboundSchema: z.ZodType<
   });
 });
 
-/**
- * @internal
- * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
- */
-export namespace CreateOrderOrderUpdateResponse$ {
-  /** @deprecated use `CreateOrderOrderUpdateResponse$inboundSchema` instead. */
-  export const inboundSchema = CreateOrderOrderUpdateResponse$inboundSchema;
-  /** @deprecated use `CreateOrderOrderUpdateResponse$outboundSchema` instead. */
-  export const outboundSchema = CreateOrderOrderUpdateResponse$outboundSchema;
-  /** @deprecated use `CreateOrderOrderUpdateResponse$Outbound` instead. */
-  export type Outbound = CreateOrderOrderUpdateResponse$Outbound;
-}
-
 export function createOrderOrderUpdateResponseToJSON(
   createOrderOrderUpdateResponse: CreateOrderOrderUpdateResponse,
 ): string {
@@ -105,7 +91,6 @@ export function createOrderOrderUpdateResponseToJSON(
     ),
   );
 }
-
 export function createOrderOrderUpdateResponseFromJSON(
   jsonString: string,
 ): SafeParseResult<CreateOrderOrderUpdateResponse, SDKValidationError> {
@@ -124,7 +109,6 @@ export const CreateOrderOrderUpdateRequestBody$inboundSchema: z.ZodType<
 > = z.object({
   order: shared.OrderInput$inboundSchema.optional(),
 });
-
 /** @internal */
 export type CreateOrderOrderUpdateRequestBody$Outbound = {
   order?: shared.OrderInput$Outbound | undefined;
@@ -139,20 +123,6 @@ export const CreateOrderOrderUpdateRequestBody$outboundSchema: z.ZodType<
   order: shared.OrderInput$outboundSchema.optional(),
 });
 
-/**
- * @internal
- * @deprecated This namespace will be removed in future versions. Use schemas and types that are exported directly from this module.
- */
-export namespace CreateOrderOrderUpdateRequestBody$ {
-  /** @deprecated use `CreateOrderOrderUpdateRequestBody$inboundSchema` instead. */
-  export const inboundSchema = CreateOrderOrderUpdateRequestBody$inboundSchema;
-  /** @deprecated use `CreateOrderOrderUpdateRequestBody$outboundSchema` instead. */
-  export const outboundSchema =
-    CreateOrderOrderUpdateRequestBody$outboundSchema;
-  /** @deprecated use `CreateOrderOrderUpdateRequestBody$Outbound` instead. */
-  export type Outbound = CreateOrderOrderUpdateRequestBody$Outbound;
-}
-
 export function createOrderOrderUpdateRequestBodyToJSON(
   createOrderOrderUpdateRequestBody: CreateOrderOrderUpdateRequestBody,
 ): string {
@@ -162,7 +132,6 @@ export function createOrderOrderUpdateRequestBodyToJSON(
     ),
   );
 }
-
 export function createOrderOrderUpdateRequestBodyFromJSON(
   jsonString: string,
 ): SafeParseResult<CreateOrderOrderUpdateRequestBody, SDKValidationError> {
