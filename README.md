@@ -77,29 +77,29 @@ run();
 <details open>
 <summary>Available methods</summary>
 
-### [authentication](docs/sdks/authentication/README.md)
+### [Authentication](docs/sdks/authentication/README.md)
 
 * [authenticate](docs/sdks/authentication/README.md#authenticate) - Authenticate with the API by providing a username and password.
 
-### [config](docs/sdks/config/README.md)
+### [Config](docs/sdks/config/README.md)
 
 * [subscribeToWebhooks](docs/sdks/config/README.md#subscribetowebhooks) - Subscribe to webhooks.
 
-### [drinks](docs/sdks/drinks/README.md)
+### [Drinks](docs/sdks/drinks/README.md)
 
 * [getDrink](docs/sdks/drinks/README.md#getdrink) - Get a drink.
 * [listDrinks](docs/sdks/drinks/README.md#listdrinks) - Get a list of drinks.
 
-### [food](docs/sdks/food/README.md)
+### [Food](docs/sdks/food/README.md)
 
 * [getFood](docs/sdks/food/README.md#getfood) - Get a food item.
 * [listFoods](docs/sdks/food/README.md#listfoods) - Get a list of food items.
 
-### [ingredients](docs/sdks/ingredients/README.md)
+### [Ingredients](docs/sdks/ingredients/README.md)
 
 * [listIngredients](docs/sdks/ingredients/README.md#listingredients) - Get a list of ingredients.
 
-### [orders](docs/sdks/orders/README.md)
+### [Orders](docs/sdks/orders/README.md)
 
 * [createOrder](docs/sdks/orders/README.md#createorder) - Create an order.
 
