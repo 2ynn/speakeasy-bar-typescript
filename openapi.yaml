@@ -1,8 +1,8 @@
 openapi: 3.1.0
 info:
   title: The Speakeasy Bar
-  version: 1.0.0
-  summary: A cool bar that serves drinks.
+  version: 1.0.1
+  summary: A bar that serves drinks.
   description: A secret underground bar that serves drinks to those in the know.
   contact:
     name: Speakeasy Support
