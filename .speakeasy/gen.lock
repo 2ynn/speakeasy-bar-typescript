@@ -1,20 +1,20 @@
 lockVersion: 2.0.0
 id: 906577a1-c369-4ae0-9074-3e1b5123889d
 management:
-  docChecksum: 35d043631f713dab5ef44a876e616c66
-  docVersion: 1.0.0
-  speakeasyVersion: 1.680.0
-  generationVersion: 2.788.4
-  releaseVersion: 4.5.0
-  configChecksum: 56dc0f31f647bc35ba558a144c6cf0dc
+  docChecksum: b4372d8a48b3a7d6dd394f48fe470cd6
+  docVersion: 1.0.1
+  speakeasyVersion: 1.680.1
+  generationVersion: 2.788.5
+  releaseVersion: 4.5.1
+  configChecksum: 1005b942cf2268182bbe6b7f97af7cf5
   repoURL: https://github.com/2ynn/speakeasy-bar-typescript.git
   repoSubDirectory: .
   installationURL: https://github.com/2ynn/speakeasy-bar-typescript
   published: true
 persistentEdits:
-  generation_id: 0c420d61-a637-4903-8d5a-0e1b2be4af10
-  pristine_commit_hash: b530a5a0be24e2d886132c9fd0444c0cf8b14a4e
-  pristine_tree_hash: 6accb267144364442de61eb8ca42c8f9092695f0
+  generation_id: e3091acf-0331-46b1-9d6d-6711241e2a57
+  pristine_commit_hash: 1417043c1c2df9161dad187801093d4f6c84bc23
+  pristine_tree_hash: 202ef03d2e2092d80dbe09253a86d9aab1a29d76
 features:
   typescript:
     additionalDependencies: 0.1.0
@@ -233,12 +233,12 @@ trackedFiles:
     pristine_git_object: 93321a03673db0ab504baec874425be5f7ce4f54
   jsr.json:
     id: 7f6ab7767282
-    last_write_checksum: sha1:d24f37876085ee20e7f8fc4a4d3a96473adca247
-    pristine_git_object: 53c967cadeadc25035fa54d3dbe7488d56455ee7
+    last_write_checksum: sha1:8cdb1f7c19bfae34530406d48ce84d73a4f7f7c7
+    pristine_git_object: fda154c58a6b706ad31ee37392dce43fb75bbdad
   package.json:
     id: 7030d0b2f71b
-    last_write_checksum: sha1:a0e928802388ee1d61582de5d66c3bd2b770264f
-    pristine_git_object: 045ae49975228a4bae506b9857b09d8d029f9161
+    last_write_checksum: sha1:67308811801940fce93f0e6e21c8ebc9fcc2bf25
+    pristine_git_object: 0ab69ea1a030a9967c1b3cc9988e3238df6b34bc
   src/core.ts:
     id: f431fdbcd144
     last_write_checksum: sha1:af6bc5abac1cfcd472cea2df72eed0617fea984a
@@ -297,8 +297,8 @@ trackedFiles:
     pristine_git_object: 0aebd8b0a4867e35cb3348fc52921c3c0b4725b7
   src/lib/config.ts:
     id: 320761608fb3
-    last_write_checksum: sha1:3b144f4dc66bb304a612e04f8da439c6c6376922
-    pristine_git_object: 57954eca406db2b6774dbf5b011420759e99ff40
+    last_write_checksum: sha1:3bd436beb4b0fdecd665cdf362c23669a371d2be
+    pristine_git_object: 300c2b8cdc1a477905d65f60c6f16f6859e488ab
   src/lib/dlv.ts:
     id: b1988214835a
     last_write_checksum: sha1:1dd3e3fbb4550c4bf31f5ef997faff355d6f3250
