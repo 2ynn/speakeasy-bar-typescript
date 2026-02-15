@@ -326,7 +326,7 @@ run();
 <!-- Start Summary [summary] -->
 ## Summary
 
-The Speakeasy Bar: A cool bar that serves drinks.
+The Speakeasy Bar: A bar that serves drinks.
 
 A secret underground bar that serves drinks to those in the know.
 
