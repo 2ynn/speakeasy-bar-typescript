@@ -18,33 +18,12 @@ permissions:
   schedule:
     - cron: 0 0 * * *
 jobs:
-  debug:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout action at v15
-        uses: actions/checkout@v4
-        with:
-          repository: speakeasy-api/sdk-generation-action
-          ref: v15
-          path: _action_debug
-      - name: Show resolved commit
-        run: |
-          cd _action_debug
-          echo "=== gen2166 resolves to ==="
-          git log -1 --oneline
-          echo "=== Dockerfile content hash ==="
-          sha256sum Dockerfile
-          echo "=== Dockerfile first 30 lines ==="
-          head -30 Dockerfile
-          echo "=== Check for versioning tips code ==="
-          grep -F '[!TIP]' internal/git/git.go
-
   generate:
     needs: debug
-    uses: speakeasy-api/sdk-generation-action/.github/workflows/workflow-executor.yaml@v15
+    uses: speakeasy-api/sdk-generation-action/.github/workflows/workflow-executor.yaml@pr336
     with:
       force: ${{ github.event.inputs.force }}
-      mode: pr
+      mode: direct
       set_version: ${{ github.event.inputs.set_version }}
     secrets:
       github_access_token: ${{ secrets.GITHUB_TOKEN }}
