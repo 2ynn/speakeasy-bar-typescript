@@ -19,7 +19,6 @@ permissions:
     - cron: 0 0 * * *
 jobs:
   generate:
-    needs: debug
     uses: speakeasy-api/sdk-generation-action/.github/workflows/workflow-executor.yaml@pr336
     with:
       force: ${{ github.event.inputs.force }}
