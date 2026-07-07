@@ -29,7 +29,9 @@ import { Result } from "../sdk/types/fp.js";
  * Get a drink.
  *
  * @remarks
- * Get a drink by name, if authenticated this will include stock levels and product codes otherwise it will only include public information.
+ * Get a drink by name.
+ * If authenticated this will include stock levels and product codes.
+ * Otherwise it will only include public information.
  */
 export function drinksGetDrink(
   client: BarSDKCore,

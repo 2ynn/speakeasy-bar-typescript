@@ -1,20 +1,20 @@
 lockVersion: 2.0.0
 id: 906577a1-c369-4ae0-9074-3e1b5123889d
 management:
-  docChecksum: ad2fbb0fce9e569b8cd71f77174f9ba3
+  docChecksum: 583b2baf9a1f6127306ec4fd6cd89681
   docVersion: 1.0.1
   speakeasyVersion: 1.680.0
   generationVersion: 2.788.4
-  releaseVersion: 4.5.2
-  configChecksum: ee19917fce1063920a1d76397db9f57d
+  releaseVersion: 4.5.3
+  configChecksum: 3ff339d809f3739f273eb6aae0732667
   repoURL: https://github.com/2ynn/speakeasy-bar-typescript.git
   repoSubDirectory: .
   installationURL: https://github.com/2ynn/speakeasy-bar-typescript
   published: true
 persistentEdits:
-  generation_id: 300508db-51a9-4d3d-b9b5-224b998fd676
-  pristine_commit_hash: 79a3cf019bbc227f20c3e8a107eda73833ab4f4c
-  pristine_tree_hash: 4dce4f05b64fc17ac60d968e4de97044eb5fd418
+  generation_id: 9787beff-3369-48d9-a3ff-2c2b70d50686
+  pristine_commit_hash: edaf853a2108e9b2ba801d1973e44e3beea6d964
+  pristine_tree_hash: 2636d515c5fdb8bbc60f035922d7818f8abab0e1
 features:
   typescript:
     additionalDependencies: 0.1.0
@@ -197,8 +197,8 @@ trackedFiles:
     pristine_git_object: c667d51394c95fa66dba3a5253c2493452582409
   docs/sdks/drinks/README.md:
     id: 9022da1efa0f
-    last_write_checksum: sha1:a5062baebe914f9eaab624104f2d2a14dbfb6b0f
-    pristine_git_object: b6c82b4b06e5cb4a75f9b31c7b5e5aba119ee0f7
+    last_write_checksum: sha1:c9d6a8cac7231e3709df11f97fbb814962737243
+    pristine_git_object: 268c2e67bb6712f6a6a7f828fc53e231236b4fe7
   docs/sdks/food/README.md:
     id: 8e0150e0a446
     last_write_checksum: sha1:57f3de38c2e31736d4666f88617aa7ea3356b614
@@ -233,12 +233,12 @@ trackedFiles:
     pristine_git_object: 93321a03673db0ab504baec874425be5f7ce4f54
   jsr.json:
     id: 7f6ab7767282
-    last_write_checksum: sha1:de96f09c0b99694bdbc33d06fee151219f44a881
-    pristine_git_object: c0abd8807fb633c7810156e2e0eba644a25ff89f
+    last_write_checksum: sha1:8cbd8470601be00a9079f62ba5d6be7df40f4760
+    pristine_git_object: 75f8a0e3764384a6492cb8ffc571973a0e3e871d
   package.json:
     id: 7030d0b2f71b
-    last_write_checksum: sha1:321f1cf87019f1d59944feea3627a630e7060164
-    pristine_git_object: 23ca670fe32544f6ca8af4af937d4c2e92fd9b55
+    last_write_checksum: sha1:16eb38e1b0c6f98a531c061dc851b4575fb96e4f
+    pristine_git_object: 68739558c99eb253022683b796cbe7af34a8e4e8
   src/core.ts:
     id: f431fdbcd144
     last_write_checksum: sha1:af6bc5abac1cfcd472cea2df72eed0617fea984a
@@ -253,8 +253,8 @@ trackedFiles:
     pristine_git_object: 369f8c04dc696dd2aab4e6e98daea21113562266
   src/funcs/drinksGetDrink.ts:
     id: c9798a69320f
-    last_write_checksum: sha1:e3453dcb852672ba50905bdd0069ca6e88788e6f
-    pristine_git_object: 897a57958d53c67cd5de896eb39cc6d2156ee2b9
+    last_write_checksum: sha1:53ee03d6af4bcb84503bb8ac0e742bc8d3e07656
+    pristine_git_object: 23a340347c3d4d8d671423b8303c960acb4044d2
   src/funcs/drinksListDrinks.ts:
     id: be06978527c0
     last_write_checksum: sha1:fbbc2fbdf8d4ce950a91f2d4f4c52c3f548d25ea
@@ -297,8 +297,8 @@ trackedFiles:
     pristine_git_object: 0aebd8b0a4867e35cb3348fc52921c3c0b4725b7
   src/lib/config.ts:
     id: 320761608fb3
-    last_write_checksum: sha1:69fc15ab75400998e2bd814c6c2300a6ff3750e8
-    pristine_git_object: 40d3866187f5aa6e1dea9d64ec5e9391f175bfe8
+    last_write_checksum: sha1:0c1b2ec162e603ae8a0758ef9dc771a0b12c6ab8
+    pristine_git_object: 418928b85c92e5ccfbd1ef6f1085bf308fba14ba
   src/lib/dlv.ts:
     id: b1988214835a
     last_write_checksum: sha1:1dd3e3fbb4550c4bf31f5ef997faff355d6f3250
@@ -361,8 +361,8 @@ trackedFiles:
     pristine_git_object: a034d212ddcd19b5ce18d4cdbdc26af6915da873
   src/sdk/drinks.ts:
     id: e82fc1a8a455
-    last_write_checksum: sha1:56ebd2091268deffe132ed94ed77b080cffa1318
-    pristine_git_object: 56ce7f866419764512c619f01b0893d31c1d4857
+    last_write_checksum: sha1:f5e3822596970db232e2257247db7dcdeaeb9d30
+    pristine_git_object: 52f3999314e085d8fb876d0ad0bd45c30b492acf
   src/sdk/food.ts:
     id: 1f9aa9e6cd96
     last_write_checksum: sha1:0417fffc6bd841e2ebfd2e93da25e8c743b1ddca

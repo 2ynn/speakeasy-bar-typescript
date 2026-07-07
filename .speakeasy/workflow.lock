@@ -2,18 +2,20 @@ speakeasyVersion: 1.680.0
 sources:
     bar-api:
         sourceNamespace: bar-api
-        sourceRevisionDigest: sha256:fc85423e6dcb21dfd49ff5cb8f0019d7a8ccd724132c02ae7a2d20f17b397c5f
-        sourceBlobDigest: sha256:e10ccc51c238aa35953af0231854f5ceb214b0d3fff598417a871309d652d0fc
+        sourceRevisionDigest: sha256:ea20d38af8b513003703d4f468910789c1ca9badaf43bd5d6cfac5a917ce5772
+        sourceBlobDigest: sha256:ca45985fd949f9a6871a10258956e4148a1c6a084fef8dd0d514afa1d6b43937
         tags:
             - latest
-            - speakeasy-sdk-regen-1783433962
+            - speakeasy-sdk-regen-1783434806
             - 1.0.1
 targets:
     bar-typescript:
         source: bar-api
         sourceNamespace: bar-api
-        sourceRevisionDigest: sha256:fc85423e6dcb21dfd49ff5cb8f0019d7a8ccd724132c02ae7a2d20f17b397c5f
-        sourceBlobDigest: sha256:e10ccc51c238aa35953af0231854f5ceb214b0d3fff598417a871309d652d0fc
+        sourceRevisionDigest: sha256:ea20d38af8b513003703d4f468910789c1ca9badaf43bd5d6cfac5a917ce5772
+        sourceBlobDigest: sha256:ca45985fd949f9a6871a10258956e4148a1c6a084fef8dd0d514afa1d6b43937
+        codeSamplesNamespace: bar-api-typescript-code-samples
+        codeSamplesRevisionDigest: sha256:d92bd217954b3a0362ba0fd7e16744c9cd843c52fdb1fb80338884d6855c0984
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
@@ -30,3 +32,9 @@ workflow:
             publish:
                 npm:
                     token: $npm_token
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/qynn/readme-editor-tests/bar-api-typescript-code-samples
+                labelOverride:
+                    fixedValue: Typescript (SDK)
+                blocking: false
