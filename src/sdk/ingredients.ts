@@ -12,7 +12,9 @@ export class Ingredients extends ClientSDK {
    * Get a list of ingredients.
    *
    * @remarks
-   * Get a list of ingredients, if authenticated this will include stock levels and product codes otherwise it will only include public information.
+   * Get a list of ingredients.
+   * If authenticated this will include stock levels and product codes.
+   * Otherwise it will only include public information.
    */
   async listIngredients(
     page: number,
